@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+.record{
+	position:relative;
+	margin-top:40px;
+	display:box;
+       display:-webkit-box;
+       display:-moz-box; 
+       box-pack:center;
+       -webkit-box-pack:center;
+       -moz-box-pack:center; 
+	   height: 200px; 
+	   width:100%;
+	   
+	   
+	   }
+.circle {
+    width: 200px;
+    height: 200px;  
+    position: relative;
+    border-radius: 50%;
+    background:#CDBE70 ;
+}
+.pie_left, .pie_right {
+    width: 200px; 
+    height: 200px;
+    position: absolute;
+    top: 0;left: 0;
+}
+.left, .right {
+    display: block;
+    width:200px; 
+    height:200px;
+    background: #FFDEAD;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.pie_right, .right {
+    clip:rect(0,auto,auto,100px);
+}
+.pie_left, .left {
+    clip:rect(0,100px,auto,0);
+}
+.mask {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    left: 10px;
+    top: 10px;
+	background-image: url(pic/bucky0.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: cover;
+    
+    position: absolute;
+    
+    line-height: 150px;
+    font-size: 16px;
+}
+
+.ifont{ width:100%; height:50px; margin-top:-30px;position:absolute;}
+.myfont{font-weight:800; font-size:30px !important; color: #F93;}
+
+
+.fleft{ float:left}
+.fright{ float:right}
